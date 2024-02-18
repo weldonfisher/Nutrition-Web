@@ -1,0 +1,20 @@
+/* SMALL DEVICES */
+
+@media only screen and (max-width: 880px) {
+  h1 {
+    font-size: 12px;
+  }
+
+  .top-banner-icon {
+    display: none;
+  }
+
+  .top-banner-box {
+
+    justify-content: center;
+  }
+  .top-banner {
+
+    padding: 14px 16px;
+}
+}
