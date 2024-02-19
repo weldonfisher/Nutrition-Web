@@ -2,7 +2,6 @@
 
 body {
   margin: 0;
-
 }
 
 /* TEXTS */
@@ -165,7 +164,7 @@ nav {
   padding: 0px 80px 0px 0px;
   justify-content: center;
   gap: 40px;
-  margin: 0;
+  margin: 0px 0px 100px 0px;
 }
 
 .hero-img {
@@ -237,13 +236,13 @@ nav {
   justify-content: center;
   flex-direction: column;
   gap: 60px;
-  margin: 0;
+  margin: 0px 0px 100px 0px;
   align-items: center;
 }
 
 .feature-content {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   gap: 20px;
 }
 
@@ -258,6 +257,7 @@ nav {
   border-radius: 10px;
   border: 1px solid var(--Green-85, #e5f5bd);
   background: #f6fbe9;
+  width: 50%;
 }
 .feature-title {
   display: flex;
@@ -287,14 +287,111 @@ nav {
   max-width: 550px;
 }
 
-.feature-boxes-left,
-.feature-boxes-right {
+.feature-boxes {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 20px;
 }
 
 .features h2,
 p {
   margin: 0;
+  text-align: center;
 }
+
+/* Blogs */
+
+.blogs {
+  display: flex;
+  padding: 0px 80px 0px 80px;
+  justify-content: center;
+  flex-direction: column;
+  gap: 60px;
+  margin: 0px 0px 100px 0px;
+  align-items: center;
+}
+
+.blog-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.blogs h2,
+p {
+  margin: 0;
+  text-align: center;
+}
+
+.blog-boxes {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.blog-box {
+  display: flex;
+  padding: 30px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  align-self: stretch;
+  border-radius: 10px;
+  border: 1px solid var(--Green-90, #eef8d3);
+  background: var(--Green-95, #f6fbe9);
+}
+
+.blog-img {
+  display: block;
+  width: 100%;
+}
+
+.blog-img img {
+  width: 100%;
+}
+
+.blog-title h6 {
+  color: var(--Grey-20, #333);
+  margin: 0px;
+}
+
+.blog-title h3 {
+  color: var(--Grey-15, #262626);
+  margin: 10px 0px 0px 0px;
+}
+
+.blog-content p {
+  color: #4c4c4d;
+  max-width: 570px;
+  line-height: 150%; /* 24px */
+  text-align: left;
+}
+
+.blog-author {
+  display: flex;
+  padding: 16px 14px 16px 16px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  border-radius: 10px;
+  border: 1px solid var(--Green-90, #eef8d3);
+  background: var(--Green-97, #fafdf2);
+}
+
+.blog-author h5,
+p {
+  margin: 0;
+}
+
+.blog-author-details {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.blog-author-details img {
+  width: 50px;
+height: 50px;
+}
+
