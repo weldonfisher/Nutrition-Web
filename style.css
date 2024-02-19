@@ -14,6 +14,15 @@ h1 {
   font-weight: 700;
   line-height: normal;
 }
+h2 {
+  color: var(--Grey-15, #262626);
+  text-align: center;
+  font-family: Urbanist;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 57px */
+}
 h3 {
   color: var(--Dark-Green-15, #1a3129);
   font-family: Urbanist;
@@ -22,6 +31,16 @@ h3 {
   font-weight: 600;
   line-height: normal;
 }
+
+h5 {
+  color: var(--Dark-Green-40, #1a3129);
+  font-family: Urbanist;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 27px */
+}
+
 h6 {
   color: var(--Absolute-White, #fff);
   font-family: Urbanist;
@@ -143,7 +162,6 @@ nav {
 .hero {
   display: flex;
   padding: 0px 80px 0px 0px;
-  background-color: #e5f5bd;
   justify-content: center;
   gap: 40px;
   margin: 0;
@@ -184,4 +202,96 @@ nav {
   font-style: normal;
   font-weight: 500;
   line-height: 150%; /* 24px */
+}
+
+.hero-happy-customers {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.hero h3 {
+  display: flex;
+  padding: 8px 0px;
+  align-items: center;
+  gap: 10px;
+  margin: 0;
+  width: fit-content;
+  border-bottom: 3px solid var(--Green-70, #cbea7b);
+}
+.hero h1 {
+  margin: 10px 0px 0px 0px;
+}
+
+.hero p {
+  margin: 0;
+}
+
+/* FEATURES */
+
+.features {
+  display: flex;
+  padding: 0px 80px 0px 80px;
+  justify-content: center;
+  flex-direction: column;
+  gap: 60px;
+  margin: 0;
+  align-items: center;
+}
+
+.feature-content {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.feature-box {
+  display: flex;
+  padding: 40px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  flex: 1 0 0;
+  align-self: stretch;
+  border-radius: 10px;
+  border: 1px solid var(--Green-85, #e5f5bd);
+  background: #f6fbe9;
+}
+.feature-title {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.feature-box-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.feature-icon {
+  display: flex;
+  padding: 12px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 6px;
+  background: var(--Green-70, #cbea7b);
+}
+.feature-box h3 {
+  margin: 0px;
+}
+.feature-box p {
+  margin: 0px;
+}
+
+.feature-boxes-left,
+.feature-boxes-right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.features h2, p {
+  margin: 0;
 }
