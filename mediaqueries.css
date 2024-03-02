@@ -122,4 +122,16 @@
   .test-card-content p {
     max-width: 500px;
   }
+
+  /* Our Pricing */
+
+  .pricing {
+    padding: 0px 16px 0px 16px;
+  }
+
+  .pricing-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
 }

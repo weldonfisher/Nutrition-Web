@@ -516,8 +516,153 @@ p {
   align-items: center;
 }
 
-.blog-content {
+.pricing-content {
   display: flex;
   flex-direction: column;
+  gap: 40px;
+}
+
+.pricing-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pricing-btn {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  border-radius: 8px;
+  border: 1px solid var(--Green-80, #dcf1a7);
+  max-width: 210px;
+}
+
+.pricing-content h6 {
+  color: var(--Grey-30, #4c4c4d);
+  text-align: center;
+  margin: 16px 0px 0px 0px;
+}
+
+.pricing-btn-primary {
+  display: flex;
+  padding: 10px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 6px;
+  background: var(--Dark-Green-20, #234338);
+  color: var(--Absolute-White, #fff);
+  font-family: Urbanist;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 21px */
+}
+.pricing-btn-seconday {
+  display: flex;
+  padding: 10px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 100px;
+  color: var(--Grey-30, #4c4c4c);
+  font-family: Urbanist;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 21px */
+}
+
+.pricing-cards {
+  display: flex;
+  flex-direction: row;
   gap: 20px;
+}
+
+.pricing-card {
+  display: flex;
+  padding: 40px;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1 0 0;
+  border-radius: 10px;
+  border: 1px solid var(--Green-90, #eef8d3);
+  background: var(--Green-95, #f6fbe9);
+}
+
+.pricing-card h3 {
+  color: var(--Grey-15, #262626);
+  font-family: Urbanist;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 36px */
+  margin: 0px 0px 5px 0px;
+}
+.pricing-card h6 {
+  color: var(--Grey-30, #4c4c4d);
+  font-family: Urbanist;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 24px */
+  margin: 0px 0px 30px 0px;
+}
+
+.pricing-card p {
+  color: var(--Grey-15, #262626);
+  font-family: Urbanist;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 24px */
+  text-align: left;
+  max-width: 340px;
+  margin: 0px 0px 30px 0px;
+}
+
+.pricing-card h2 {
+  color: var(--Dark-Green-25, #2c5446);
+  font-family: Urbanist;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 87.523%; /* 35.009px */
+  margin: 0px 0px 0px 0px;
+}
+
+.pricing-card h4 {
+  color: var(--Grey-20, #333);
+  font-family: Urbanist;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 24px */
+  margin: 0px 0px 0px 0px;
+}
+
+.price-tag {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+
+  margin: 0px 0px 24px 0px;
+}
+
+.pricing-card .btn-primary {
+  display: flex;
+  padding: 14px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  color: var(--Grey-15, #262626);
+  font-family: Urbanist;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
