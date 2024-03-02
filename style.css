@@ -277,6 +277,7 @@ nav {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  max-width: 780px;
 }
 
 .feature-box-heading {
@@ -413,4 +414,110 @@ p {
   justify-content: center;
   flex-direction: row;
   gap: 6px;
+}
+
+/* Our Testimonials */
+
+.testimonials {
+  display: flex;
+  padding: 0px 80px 0px 80px;
+  justify-content: center;
+  flex-direction: column;
+  gap: 60px;
+  margin: 0px 0px 100px 0px;
+  align-items: center;
+}
+
+.test-card-content {
+  display: flex;
+  padding: 30px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+  align-self: stretch;
+  border-radius: 10px 10px 0px 0px;
+  border: 1px solid var(--Green-90, #eef8d3);
+  background: var(--Green-97, #fafdf2);
+  height: fit-content;
+}
+
+.test-author {
+  display: flex;
+  padding: 20px 30px;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  background: var(--Green-95, #f6fbe9);
+}
+
+.test-card-content p {
+  color: var(--Grey-20, #333);
+  font-family: Urbanist;
+  text-align: left;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 24px */
+  max-width: 355px;
+  min-width: 100px;
+}
+
+.testimonials h6 {
+  margin: 0px;
+  color: var(--Dark-Green-15, #1a3129);
+  font-family: Urbanist;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 24px */
+}
+
+.testimonial-content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.test-btns {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.test-cards {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.test-card-01 {
+  display: flex;
+  flex-direction: column;
+}
+
+.test-card-02 {
+  display: flex;
+  flex-direction: column;
+}
+.test-card-03 {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Our Pricing */
+
+.pricing {
+  display: flex;
+  padding: 0px 80px 0px 80px;
+  justify-content: center;
+  flex-direction: column;
+  gap: 60px;
+  margin: 0px 0px 100px 0px;
+  align-items: center;
+}
+
+.blog-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }

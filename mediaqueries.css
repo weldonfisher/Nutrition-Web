@@ -40,7 +40,9 @@
   }
   .hero-img {
     display: flex;
+    position: relative;
     max-width: 100%;
+    padding-left: -40px;
   }
   .hero-content {
     width: 100%;
@@ -102,5 +104,22 @@
     justify-content: center;
     flex-direction: column;
     gap: 6px;
+  }
+
+  /* Our Testimonials */
+
+  .test-card-02 {
+    display: none;
+  }
+  .test-card-03 {
+    display: none;
+  }
+
+  .testimonials {
+    padding: 16px;
+  }
+
+  .test-card-content p {
+    max-width: 500px;
   }
 }
