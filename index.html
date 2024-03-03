@@ -87,7 +87,8 @@
         </svg>
       </div>
     </div>
-    <nav>
+
+    <nav id="desktop-nav">
       <div class="nav-box">
         <div class="nav-logo">
           <svg
@@ -159,6 +160,26 @@
         </div>
       </div>
     </nav>
+
+    <nav id="hamburger-nav">
+      <div class="logo"><img src="assets/Logo-mobile.svg" alt="logo" /></div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Team</a>
+          <a href="#">Process</a>
+          <a href="#">Pricing</a>
+          <a href="#">Blog</a>
+        </div>
+      </div>
+    </nav>
+
     <div class="hero">
       <div class="hero-img">
         <img src="assets/Girl img.png" alt="" />
@@ -895,5 +916,6 @@
         <p>© 2023 Nutritionist. All rights reserved.</p>
       </div>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>

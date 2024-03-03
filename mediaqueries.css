@@ -8,6 +8,7 @@
   }
   .top-banner-box {
     justify-content: center;
+    height: 25px;
   }
   .top-banner {
     padding: 14px 16px;
@@ -20,8 +21,11 @@
 
   /* NAV */
 
-  nav {
+  #desktop-nav {
     display: none;
+  }
+  #hamburger-nav {
+    display: flex;
   }
   /* HERO */
 
